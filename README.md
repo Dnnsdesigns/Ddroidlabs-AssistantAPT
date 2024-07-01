@@ -30,3 +30,38 @@ Usage
 To run the application, execute:
 
 python app.py
+
+## Running the VB.NET and Python Integration
+
+### Prerequisites
+
+Ensure you have the following installed:
+- Python 3.x
+- Pip
+- Visual Studio with VB.NET support
+
+### Setup
+
+1. Clone the repository:
+    ```bash
+    git clone git@huggingface.co:dnnsdunca/AssistantAPT.git
+    cd AssistantAPT
+    ```
+
+2. Install Python dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Build the VB.NET project:
+    - Open the `vbnet/YourVbNetProject/YourVbNetProject.sln` in Visual Studio.
+    - Build the project to generate the executable.
+
+4. Run the application:
+    ```bash
+    python app.py
+    ```
+
+### Contributing
+
+Contributions are welcome! Please fork this repository and submit a pull request with your changes.
