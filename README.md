@@ -42,25 +42,30 @@ Ensure you have the following installed:
 
 ### Setup
 
-1. Clone the repository:
-    ```bash
-    git clone git@huggingface.co:dnnsdunca/AssistantAPT.git
-    cd AssistantAPT
-    ```
+# Assistant APT
 
-2. Install Python dependencies:
+This project contains the code and resources for an agentic pretrained transformer.
+
+## Setup
+
+1. Install the required packages:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Build the VB.NET project:
-    - Open the `vbnet/YourVbNetProject/YourVbNetProject.sln` in Visual Studio.
-    - Build the project to generate the executable.
-
-4. Run the application:
+2. Run the application:
     ```bash
     python app.py
     ```
+
+## Files and Directories
+
+- `app.py`: Main script to run the application.
+- `requirements.txt`: List of dependencies required for the project.
+- `agent/`: Directory containing model-related code.
+- `data/`: Directory containing sample input data.
+- `scripts/`: Directory containing helper scripts.
+
 
 ### Contributing
 
