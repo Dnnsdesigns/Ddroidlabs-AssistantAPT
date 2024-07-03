@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Downloading data..."
+# Add commands to download data
