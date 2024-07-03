@@ -1,0 +1,11 @@
+AssistantAPT/
+├── README.md
+├── requirements.txt
+├── app.py
+├── agent/
+│   └── __init__.py
+│   └── model.py
+├── data/
+│   └── sample_input.txt
+├── scripts/
+│   └── download_data.sh
